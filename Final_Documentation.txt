@@ -21,3 +21,11 @@ HR => Home Team Red Cards
 AR => Away Team Red Cards
 HGD => Home Goal Difference
 AGD => Away Goal Difference
+
+
+
+Citations
+Cronin, Benjamin. Poisson Distribution: Predict the Score in Soccer Betting. www.pinnacle.com/en/betting-articles/Soccer/how-to-calculate-poisson-distribution/MD62MLXUMKMXZ6A8. 
+Beasley, Andrew. “How to Calculate Expected Goals in Soccer.” Pinnacle, www.pinnacle.com/en/betting-articles/Soccer/how-to-calculate-expected-goals-for-soccer-matches/JESJH3RKXCMUF9TY. 
+Peng, Neo Yi. “What I've Learnt Predicting Soccer Matches with Machine Learning.” Medium, Towards Data Science, 24 Feb. 2020, towardsdatascience.com/what-ive-learnt-predicting-soccer-matches-with-machine-learning-b3f8b445149d. 
+Jayboice. “Premier League Predictions.” FiveThirtyEight, 27 Oct. 2020, projects.fivethirtyeight.com/soccer-predictions/premier-league/. 
