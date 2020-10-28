@@ -1,0 +1,23 @@
+CS 254 - League Table Prediction
+
+Data Keywords Meaning
+FTHG => Full Time Home Goals
+FTAG => Full Time Away Goals
+FTR => Full Time Result
+HTHG => Half Time Home Goals
+HTAG => Half Time Away Goals
+HTR => Half Time Result
+HS => Home Team Shots
+AS => Away Team Shots
+HST => Home Team Shot on Target
+AST => Away Team Shot on Target
+HC => Home Team Corners
+AC => Away Team Corners
+HF => Home Team Fouls Committed
+AF => Away Team Fouls Committed
+HY => Home Team Yellow Cards
+AY => Away Team Yellow Cards
+HR => Home Team Red Cards	
+AR => Away Team Red Cards
+HGD => Home Goal Difference
+AGD => Away Goal Difference
