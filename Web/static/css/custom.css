@@ -1,0 +1,42 @@
+html,body{
+	margin: 0;
+}
+
+h1, p{
+	text-align: center;
+}
+
+table {
+	font-family: arial, sans-serif;
+	border-collapse: collapse;
+	width: 65%;
+	margin: 0 auto;
+}
+
+caption{
+	text-decoration: underline;
+	text-decoration-style: double;
+	margin: 0 auto 1%;
+}
+
+td, th {
+	border: 1px solid #dddddd;
+	text-align: left;
+	padding: 8px;
+}
+
+tr:nth-child(even) {
+	background-color: #dddddd;
+}
+
+img{
+	width: 15%;
+	max-width: 100%;
+}
+
+thead th{
+	text-align: center;
+}
+tbody .emblem{
+	text-align: center;
+}

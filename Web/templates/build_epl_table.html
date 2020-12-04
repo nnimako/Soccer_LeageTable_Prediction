@@ -1,0 +1,39 @@
+<!Doctype html>
+<html lang='en'>
+	<head>
+		<meta charset='UTF-8'>
+		<title>Predicted EPL Table</title>
+		
+		<link rel="stylesheet" href="{{ url_for('static', filename='css/custom.css') }}">
+	</head>
+
+	<body>
+		<main>
+			<section>
+				<h1> EPL Predictions </h1>
+				<p>This website is displaying predicted results obtained using previous data colleged from EPL website and machine learning to predict the 2019 premier league season.</p>
+			</section>
+			<section>
+				<table>
+					<caption>2019 Premier League Table Prediction</caption>
+						<thead>
+						<tr>
+							<th>Emblem</th>
+							<th>Team Name</th>
+							<th>Predicted Points</th>
+						</tr>
+						</thead>
+						<tbody>
+						{% for detail in details%}
+						<tr>
+							<td class="emblem"><img src="{{url_for('static', filename=detail.Emblem_Location)}}" alt="Emblem"></td>
+							<td class="teamname">{{detail.Team_name}}</td>
+							<td class="teampoints">{{detail.Points}}</td>
+						</tr>
+						{% endfor %}
+					</tbody>
+				</table>
+			</section>
+		</main>
+	</body>
+</html>
